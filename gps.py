@@ -8,8 +8,9 @@ from machine import Pin, UART
 import utime, time
 
 # Wi-Fi credentials
-ssid = 'Rangapg_22'
-password = '@password@22'
+#use your wifi name and password
+ssid = ''
+password = ''
 def connect():
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)
